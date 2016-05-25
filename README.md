@@ -2,7 +2,7 @@
 An android calculator for programmer.
 
 This is an android app.
-An calculator for programmer.
+A calculator for programmer.
 
 This is the sourse code of the app that the version is 1.1.
 
