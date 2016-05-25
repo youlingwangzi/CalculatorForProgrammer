@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--resources>
+    <color name="blue">#0064FF</color>
+    <color name="gray_two">#64A0FF</color>
+    <color name="gray_one">#A0C8FF</color>
+    <color name="gray_three">#cccccc</color>
+    <color name="gray_four">#bbbbbb</color>
+    <color name="gray_word">#aaaaaa</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+</resources-->
+
+<resources>
+<color name="blue">#0064FF</color>
+<color name="blue_bright">#0088FF</color>
+<color name="gray_two">#dddddd</color>
+<color name="gray_one">#eeeeee</color>
+<color name="gray_three">#cccccc</color>
+<color name="gray_four">#bbbbbb</color>
+<color name="gray_five">#666666</color>
+<color name="gray_word">#aaaaaa</color>
+<color name="white">#ffffff</color>
+<color name="black">#000000</color>
+</resources>
+<!--resources>
+<color name="blue">#0064FF</color>
+<color name="gray_two">#dddddd</color>
+<color name="gray_one">#eeeeee</color>
+<color name="gray_three">#cccccc</color>
+<color name="gray_four">#bbbbbb</color>
+<color name="gray_word">#aaaaaa</color>
+<color name="white">#ffffff</color>
+<color name="black">#000000</color>
+</resources-->
+

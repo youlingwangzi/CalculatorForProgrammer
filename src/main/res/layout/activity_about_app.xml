@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.calculatorforprogrammer.AboutAppActivity"
+    android:background="@color/blue_bright">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/gray_one"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_bright"
+            android:paddingTop="@dimen/abc_action_bar_default_height_material"
+            android:paddingBottom="@dimen/abc_action_bar_default_height_material"
+            android:id="@+id/about_developer_title_bacground"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="83dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:id="@+id/appNameTextView"
+                android:text="@string/app_name"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:text="versionName"
+                android:id="@+id/versionNameTextView"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/abc_text_size_menu_material" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbarSize="1dp"
+            android:scrollbarThumbVertical="@color/blue"
+            android:scrollbarTrackVertical="@color/gray_one"
+            android:background="@color/gray_one"
+            android:layout_gravity="center_vertical|end"
+            android:paddingLeft="@dimen/abc_text_size_body_1_material"
+            android:paddingRight="@dimen/abc_text_size_body_1_material">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_one"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center_vertical"
+                    android:text="@string/about_developer_title"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center_vertical"
+                    android:text="@string/about_developer"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center_vertical"
+                    android:text="@string/Email"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center_vertical"
+                    android:text="@string/sina_weibo"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center_vertical"
+                    android:text="@string/tell_me"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="@string/check_new_button"
+                    android:background="@color/gray_one"
+                    android:onClick="onClickCheckNewButton"
+                    android:id="@+id/check_view_button"/>
+                
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

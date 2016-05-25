@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.calculatorforprogrammer.AdActivity">
+
+    <RelativeLayout android:id="@+id/bottomRl"
+        android:layout_height="100dp"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue_bright">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="@dimen/abc_action_bar_default_height_material"
+            android:paddingRight="@dimen/abc_action_bar_default_height_material">
+            <ImageView android:id="@+id/bottomIcon"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/icon"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:id="@+id/appNameTextView"
+                android:text="@string/app_name"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_toRightOf="@id/bottomIcon"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/adsRl"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_above="@id/bottomRl"
+        android:background="@color/blue_bright">
+
+    </RelativeLayout>
+
+</RelativeLayout>
